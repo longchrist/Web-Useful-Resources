@@ -35,7 +35,7 @@ Info ajax File Upload<br/>
 		dataType 		: 'json'
 	});
 ```
-# Server Side PHP Framework
+# PHP Framework
 PHP Framework :<br/>
 1. <a href="https://github.com/ivantcholakov/starter-public-edition-3" target="_blank">Code-Igniter 3</a><br/>
 
@@ -43,3 +43,8 @@ PHP Framework :<br/>
 1. <a href="http://www.w3schools.com/" target="_blank">w3schools</a><br/>
 2. <a href="http://www.javatpoint.com/" target="_blank">Java Web Services Tutorial 1</a><br/>
 3. <a href="http://docs.oracle.com/javaee/6/tutorial/doc/gijti.html" target="_blank">Oracle Introduction to Web Services - Java EE 6</a><br/> 
+
+# Community
+PHP Indonesia : 
+PHP Indonesia Official Link : <a href="http://www.phpindonesia.or.id/" target="_blank">Official</a>
+PHP Indonesia Facebook Link : <a href="https://www.facebook.com/groups/35688476100/10153668442436101/" target="_blank">Facebook</a>
