@@ -45,6 +45,6 @@ PHP Framework :<br/>
 3. <a href="http://docs.oracle.com/javaee/6/tutorial/doc/gijti.html" target="_blank">Oracle Introduction to Web Services - Java EE 6</a><br/> 
 
 # Community
-PHP Indonesia : 
-PHP Indonesia Official Link : <a href="http://www.phpindonesia.or.id/" target="_blank">Official</a>
-PHP Indonesia Facebook Link : <a href="https://www.facebook.com/groups/35688476100/10153668442436101/" target="_blank">Facebook</a>
+PHP Indonesia : <br/>
+PHP Indonesia Official Link : <a href="http://www.phpindonesia.or.id/" target="_blank">Official</a><br/>
+PHP Indonesia Facebook Link : <a href="https://www.facebook.com/groups/35688476100/10153668442436101/" target="_blank">Facebook</a><br/>
