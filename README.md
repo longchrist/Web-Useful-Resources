@@ -1,15 +1,17 @@
 # Web Useful Resources
 web programming useful resources link
-
 berikut adalah link yang penting :<br/>
+
 # CSS / Font Graphics
 Web Icon-Fonts Graphics :<br/>
 1. <a href="http://glyphicons.com/" target="_blank">Glyphicons Icons</a><br/>
 2. <a href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font-Awesome Icons</a><br/>
+3. 
 
 # Javascript / Client Side
 Javascript Modules :<br/>
 1. <a href="http://wenzhixin.net.cn/p/multiple-select/docs/" target="_blank">Multiple Select</a><br/>
+
 Info ajax<br/>
 ```javascript
   $.ajax(
@@ -38,15 +40,20 @@ Info ajax File Upload<br/>
 # PHP Framework
 PHP Framework :<br/>
 1. <a href="https://github.com/ivantcholakov/starter-public-edition-3" target="_blank">Code-Igniter 3</a><br/>
-
-# Web Programming Tutorials
-1. <a href="http://www.w3schools.com/" target="_blank">w3schools</a><br/>
-2. <a href="http://www.javatpoint.com/" target="_blank">Java Web Services Tutorial 1</a><br/>
-3. <a href="http://docs.oracle.com/javaee/6/tutorial/doc/gijti.html" target="_blank">Oracle Introduction to Web Services - Java EE 6</a><br/> 
-
-# JavaEE Web Services
-1. <a href="https://docs.oracle.com/javaee/6/tutorial/doc/giepu.html" target="_blank">Building RESTful Web Services with JAX-RS</a><br/>
 2. 
+
+# Web Programming Tutorials & Discussion
+1. <a href="http://www.w3schools.com/" target="_blank">w3schools</a><br/>
+2. <a href="http://www.tutorialspoint.com/" target="_blank">Tutorials Point</a><br/>
+3. <a href="https://www.codecademy.com/" target="_blank">Code Academy</a></br>
+4. <a href="http://stackoverflow.com/" target="_blank">Stack Overflow (Q&A)</a></br>
+5. 
+
+# JavaEE / PHP / Other Web Services
+1. <a href="https://docs.oracle.com/javaee/6/tutorial/doc/giepu.html" target="_blank">Building RESTful Web Services with JAX-RS</a><br/>
+2. <a href="http://docs.oracle.com/javaee/6/tutorial/doc/gijti.html" target="_blank">Oracle Introduction to Web Services - Java EE 6</a><br/>
+3. <a href="http://www.javatpoint.com/web-services-tutorial" target="_blank">Web Services Tutorial</a><br/>
+4. 
 
 Simple Java RESTful WebService Function Example<br/>
 ```java
