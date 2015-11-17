@@ -46,6 +46,46 @@ PHP Framework :<br/>
 
 # JavaEE Web Services
 1. <a href="https://docs.oracle.com/javaee/6/tutorial/doc/giepu.html" target="_blank">Building RESTful Web Services with JAX-RS</a><br/>
+2. 
+
+Simple Java RESTful WebService Function Example<br/>
+```java
+    @GET
+    @Path("Barcode/{Barcodes}")
+    @Produces("text/plain")
+    public String getValues(@PathParam("Barcodes") String BarCD) {
+
+        String Bar_code = "";
+        String ValueHarga = "";
+        String NamaBar = "";
+        String Stat = "";
+        String Parameters = BarCD;
+
+        Statement stmt = null;
+        ResultSet rs;
+        String _DB_URL = "jdbc:mysql://localhost:3306/<db_name>";
+        String _DB_USERNAME = "<db_username>";
+        String _DB_PASSWORD = "<db_password>";
+
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            conn = (Connection) DriverManager.getConnection(_DB_URL, _DB_USERNAME, _DB_PASSWORD);
+            stmt = conn.createStatement();
+            String query = "SELECT tb_data2.barcode, tb_data2.valuesHarga, tb_data2.namaBarang, tb_data2.STATUS FROM tb_data2 WHERE barcode = '" + Parameters + "';";
+            rs = stmt.executeQuery(query);
+            while (rs.next()) {
+                Bar_code = rs.getString("barcode");
+                ValueHarga = rs.getString("valuesHarga");
+                NamaBar = rs.getString("namaBarang");
+                Stat = rs.getString("STATUS");
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "RESTful WebService Response :\n - Bar-Code : " + Bar_code + "\n - Nama Barang : " + NamaBar + "\n - Harga Barang : " + ValueHarga + "\n - Data Status : " + Stat;
+    }
+```
 
 # Community
 PHP Indonesia : <br/>
