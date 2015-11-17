@@ -44,6 +44,9 @@ PHP Framework :<br/>
 2. <a href="http://www.javatpoint.com/" target="_blank">Java Web Services Tutorial 1</a><br/>
 3. <a href="http://docs.oracle.com/javaee/6/tutorial/doc/gijti.html" target="_blank">Oracle Introduction to Web Services - Java EE 6</a><br/> 
 
+# JavaEE Web Services
+1. <a href="https://docs.oracle.com/javaee/6/tutorial/doc/giepu.html" target="_blank">Building RESTful Web Services with JAX-RS</a><br/>
+
 # Community
 PHP Indonesia : <br/>
 PHP Indonesia Official Link : <a href="http://www.phpindonesia.or.id/" target="_blank">Official</a><br/>
