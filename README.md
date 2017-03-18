@@ -15,22 +15,22 @@ Javascript Modules :<br/>
 Info ajax<br/>
 ```javascript
   $.ajax(
-        url 		: 'functions_link.php',
+        	url 		: 'functions_link.php',
 		type 		: 'POST',
 		data 		: JSON.stringify(getDataFunctions()),
 		success		: function(response) {resultData(response)},
 		error		: function(e) {onError(e);},
 		dataType 	: 'json',
-		contentType : 'application/json'
+		contentType 	: 'application/json'
 	});
 ```
 Info ajax File Upload<br/>
 ```javascript
-  $.ajaxFileUpload({
+  	$.ajaxFileUpload({
 		url 			: 'functions_link.php',
 		type 			: 'POST',
-		secureuri      	: false,
-		fileElementId	: 'temporary_image',
+		secureuri      		: false,
+		fileElementId		: 'temporary_image',
 		data			: JSON.stringify(data),
 		success			: function(response) {resultUpload(response);},
 		error			: function(e) {onError(e);},
