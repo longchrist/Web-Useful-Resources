@@ -14,7 +14,7 @@ Javascript Modules :<br/>
 
 Info ajax<br/>
 ```javascript
-  $.ajax(
+  	$.ajax(
         	url 		: 'functions_link.php',
 		type 		: 'POST',
 		data 		: JSON.stringify(getDataFunctions()),
